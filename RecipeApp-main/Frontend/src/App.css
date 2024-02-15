@@ -1,0 +1,41 @@
+.root {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.recipe-list {
+  display: grid;
+  margin-left: 10px;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.bookmark-list{
+  display: grid;
+  margin-left: 10px;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+#ingreList {
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-width:  thin;
+  scrollbar-color:  lightblue darkblue;
+}
+
+
+@media (max-width: 860px) {
+  .recipe-list {
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+
+  .bookmark-list {
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+}
